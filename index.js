@@ -15,3 +15,5 @@ mongoose.connection.once("open", () => {
     console.log("db connected")
     app.listen(process.env.PORT, console.log("server running on 5000"))
 })
+
+//build dist remove then add for frontend 
